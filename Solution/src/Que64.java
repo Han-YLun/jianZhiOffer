@@ -41,4 +41,8 @@ public class Que64 {
         return res;
 
     }
+
+    public static void main(String[] args) {
+        new Que64().maxInWindows(new int[]{2,3,4,2,6,2,5,1} , 3);
+    }
 }
