@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @author: hyl
@@ -14,6 +13,8 @@ public class Que3 {
         ListNode(int val) {
             this.val = val;
         }
+
+
     }
 
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
@@ -32,4 +33,6 @@ public class Que3 {
 
         return resList;
     }
+
+    
 }
