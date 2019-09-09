@@ -1,4 +1,5 @@
 import javax.swing.tree.TreeNode;
+import java.util.Arrays;
 
 /**
  * @author: hyl
@@ -21,32 +22,29 @@ public class Que4 {
     //根据前序和中序构造二叉树
     public TreeNode reConstructBinaryTree(int [] pre, int [] in) {
 
-        TreeNode root = reConstruct(pre , 0 , pre.length - 1 ,
-                in , 0 , in.length - 1);
+       if (pre == null || in == null){
+           return null;
+       }
 
-        return root;
+       if (pre.length == 0 || in.length == 0){
+           return null;
+       }
 
-    }
+       if (pre.length != in.length){
+           return null;
+       }
 
-    private TreeNode reConstruct(int[] pre, int startPre, int endPre,
-                                 int[] in, int startIn, int endIn) {
+       TreeNode root = new TreeNode(pre[0]);
 
-        if ( startPre > endPre || startIn > endIn){
-            return null;
-        }
+       for (int i = 0; i < pre.length; i++) {
+           if (pre[0] == in[i]){
 
-        TreeNode root = new TreeNode(pre[startPre]);
+               root.left = reConstructBinaryTree(Arrays.copyOfRange(pre , 1 , i + 1),
+                        Arrays.copyOfRange(in , 0 , i));
 
-        for (int i = startIn; i <= endIn; i++) {
-            if (in[i] == pre[startPre]){
+               root.right = reConstructBinaryTree(Arrays.copyOfRange(pre , i + 1 , pre.length),
+                        Arrays.copyOfRange(in , i + 1 , in.length));
 
-                root.left = reConstruct(pre , startPre + 1 , startPre + i - startIn ,
-                        in , startIn , i - 1);
-
-                root.right = reConstruct(pre , startPre + i - startIn + 1 , endPre ,
-                        in , i + 1 , endIn);
-
-                break;
             }
         }
 
