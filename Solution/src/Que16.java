@@ -37,6 +37,7 @@ public class Que16 {
                 p.next = list2;
                 list2 = list2.next;
             }
+            
             p = p.next;
         }
 

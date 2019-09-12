@@ -11,8 +11,9 @@ public class Que12 {
         }
 
         double res = 1.0;
-        for (int i = exponent; i != 0 ; i /= 2) {
+        for (int i = exponent; i != 0 ; i >>= 1) {
 
+            
             if (exponent % 2 != 0){
                 res *= base;
             }

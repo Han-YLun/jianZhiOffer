@@ -27,6 +27,7 @@ public class Que14 {
             head = head.next;
         }
 
+        //判断链表长度是否大于等于长度K
         if (stack.size() < k){
             return null;
         }
