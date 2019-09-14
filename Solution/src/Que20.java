@@ -27,7 +27,7 @@ public class Que20 {
 
     public void pop() {
 
-        if (stack.peek() == minStack.peek()){
+        if (stack.peek().equals(minStack.peek())){
             stack.pop();
             minStack.pop();
         }else{

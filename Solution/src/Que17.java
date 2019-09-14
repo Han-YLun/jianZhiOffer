@@ -14,11 +14,17 @@ public class Que17 {
 
         public TreeNode(int val) {
             this.val = val;
-
         }
 
     }
 
+    /**
+     * 判断root2是否为root1的子结构
+     * 时间复杂度 ： O(N),空间复杂度 ： O(N)
+     * @param root1
+     * @param root2
+     * @return root2是否为root1的子结构
+     */
     public boolean HasSubtree(TreeNode root1,TreeNode root2) {
 
         if (root2 == null || root1 == null){
