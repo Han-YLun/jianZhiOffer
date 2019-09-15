@@ -22,16 +22,16 @@ public class Que23 {
             return true;
         }
 
-        //记录第一个大于根节点的数
+        //找到左右子树的分界点,即右子数第一个节点
         int i = start;
         for (; i < end; i++) {
             if (sequence[i] > sequence[end - 1]){
                 break;
             }
         }
-        
 
 
+        //在右子树中判断是否含有小于root的值，如果有返回false
         for (int j = i; j < end; j++) {
             if (sequence[j]  < sequence[end - 1]){
                 return false;
