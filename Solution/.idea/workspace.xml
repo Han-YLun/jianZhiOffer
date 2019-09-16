@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="15fb5681-458e-49a1-9d47-c48d06b27786" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Que26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Que26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Que27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Que27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Que33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Que33.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,12 +31,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Que26.java">
+        <entry file="file://$PROJECT_DIR$/src/Que33.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1446">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="375">
+              <caret line="15" column="26" lean-forward="true" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,10 +101,8 @@
         <option value="$PROJECT_DIR$/src/Que19.java" />
         <option value="$PROJECT_DIR$/src/Que21.java" />
         <option value="$PROJECT_DIR$/src/Que25.java" />
-        <option value="$PROJECT_DIR$/src/Que27.java" />
         <option value="$PROJECT_DIR$/src/Que31.java" />
         <option value="$PROJECT_DIR$/src/Que32.java" />
-        <option value="$PROJECT_DIR$/src/Que33.java" />
         <option value="$PROJECT_DIR$/src/Que34.java" />
         <option value="$PROJECT_DIR$/src/Que35.java" />
         <option value="$PROJECT_DIR$/src/Que36.java" />
@@ -127,6 +132,8 @@
         <option value="$PROJECT_DIR$/src/Que23.java" />
         <option value="$PROJECT_DIR$/src/Que24.java" />
         <option value="$PROJECT_DIR$/src/Que26.java" />
+        <option value="$PROJECT_DIR$/src/Que27.java" />
+        <option value="$PROJECT_DIR$/src/Que33.java" />
       </list>
     </option>
   </component>
@@ -157,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -175,12 +181,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568600057114" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568641746392" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -198,7 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Que26">
+  <component name="RunManager" selected="Application.Que27">
     <configuration name="Que24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Que24" />
       <module name="Solution" />
@@ -208,6 +215,13 @@
     </configuration>
     <configuration name="Que26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Que26" />
+      <module name="Solution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Que27" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Que27" />
       <module name="Solution" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,20 +241,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Que61" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Que61" />
-      <module name="Solution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Que27" />
         <item itemvalue="Application.Que26" />
         <item itemvalue="Application.Que24" />
         <item itemvalue="Application.Que3" />
         <item itemvalue="Application.Que59" />
-        <item itemvalue="Application.Que61" />
       </list>
     </recent_temporary>
   </component>
@@ -272,28 +279,30 @@
       <workItem from="1568288716110" duration="2977000" />
       <workItem from="1568467541355" duration="1500000" />
       <workItem from="1568553639306" duration="1949000" />
-      <workItem from="1568599395764" duration="470000" />
+      <workItem from="1568599395764" duration="2246000" />
+      <workItem from="1568638608610" duration="3242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89165000" />
+    <option name="totallyTimeSpent" value="94183000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.109656304" visible="true" weight="0.2579425" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.109656304" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" sideWeight="0.8903437" side_tool="true" weight="0.23146747" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.05042017" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43698853" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.049099836" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -377,6 +386,12 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Que27.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -410,81 +425,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Que65.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1033">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Que56.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="925">
-          <caret line="44" column="30" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="44" selection-end-column="26" />
-          <folding>
-            <element signature="class#ListNode#0;class#Que56#0" />
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Que57.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="49" />
-          <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Que60.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#TreeNode#0;class#Que60#0" />
-            <element signature="method#Print#0;class#Que60#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Que62.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="18" column="5" selection-start-line="8" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="method#KthNode#0;class#Que62#0" />
-            <element signature="method#KthNode1#0;class#Que62#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Que64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#921#922#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Que63.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Que58.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -838,24 +778,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que26.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Que24.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175">
+        <state relative-caret-position="-867">
           <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Que25.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
+        <state relative-caret-position="675">
           <caret line="29" column="61" lean-forward="true" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Que26.java">
+    <entry file="file://$PROJECT_DIR$/src/Que27.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1446">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="678">
+          <caret line="37" column="32" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que28.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que30.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="33" lean-forward="true" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que31.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que32.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que33.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="26" lean-forward="true" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

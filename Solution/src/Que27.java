@@ -35,6 +35,7 @@ public class Que27 {
 
             for (int j = i; j < chars.length; j++) {
 
+                //对于重复的字符，无需进行操作
                 if (!charSet.contains(chars[j])){
                     charSet.add(chars[j]);
                     swap(chars , i , j);
@@ -47,6 +48,12 @@ public class Que27 {
 
     }
 
+    /**
+     * 交换字符数组chars中i和j位置的字符
+     * @param chars 字符数组
+     * @param i 位置i
+     * @param j 位置j
+     */
     private void swap(char[] chars, int i, int j) {
 
         char c = chars[i];
@@ -56,6 +63,6 @@ public class Que27 {
 
     public static void main(String[] args) {
 
-        new Que27().Permutation("abb");
+        new Que27().Permutation("abc");
     }
 }
