@@ -4,7 +4,7 @@
  **/
 public class Que26 {
 
-    public class TreeNode {
+    public static class TreeNode {
         int val = 0;
         TreeNode left = null;
         TreeNode right = null;
@@ -47,7 +47,15 @@ public class Que26 {
 
 
     public static void main(String[] args) {
-        
+        TreeNode treeNode = new TreeNode(5);
+
+        treeNode.left = new TreeNode(3);
+        treeNode.right = new TreeNode(6);
+
+
+        Que26 que26 = new Que26();
+        que26.Convert(treeNode);
+
     }
 
 }

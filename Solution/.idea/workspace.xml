@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="15fb5681-458e-49a1-9d47-c48d06b27786" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Que23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Que23.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Que26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Que26.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Que26.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="458">
-              <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            <state relative-caret-position="1446">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
@@ -181,7 +180,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568555440800" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568600057114" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -199,9 +198,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Que24">
+  <component name="RunManager" selected="Application.Que26">
     <configuration name="Que24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Que24" />
+      <module name="Solution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Que26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Que26" />
       <module name="Solution" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -228,20 +234,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Que64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Que64" />
-      <module name="Solution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Que26" />
         <item itemvalue="Application.Que24" />
         <item itemvalue="Application.Que3" />
         <item itemvalue="Application.Que59" />
         <item itemvalue="Application.Que61" />
-        <item itemvalue="Application.Que64" />
       </list>
     </recent_temporary>
   </component>
@@ -272,18 +271,19 @@
       <workItem from="1568122792834" duration="1472000" />
       <workItem from="1568288716110" duration="2977000" />
       <workItem from="1568467541355" duration="1500000" />
-      <workItem from="1568553639306" duration="1777000" />
+      <workItem from="1568553639306" duration="1949000" />
+      <workItem from="1568599395764" duration="470000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88523000" />
+    <option name="totallyTimeSpent" value="89165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.109656304" visible="true" weight="0.25416037" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.109656304" visible="true" weight="0.2579425" />
       <window_info id="Structure" order="1" sideWeight="0.8903437" side_tool="true" weight="0.23146747" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -379,12 +379,6 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="resAll" language="JAVA" />
-        <watch expression="list" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
@@ -860,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Que26.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+        <state relative-caret-position="1446">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
