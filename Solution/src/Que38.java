@@ -15,6 +15,8 @@ public class Que38 {
         }
 
     }
+
+    //二叉树的最长深度
     public int TreeDepth(TreeNode root) {
         if (root == null ){
             return 0;

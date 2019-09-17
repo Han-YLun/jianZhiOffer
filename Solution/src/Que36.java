@@ -4,7 +4,7 @@ import java.util.HashMap;
  * @author: hyl
  * @date: 2019/08/17
  **/
-public class Que36 {
+public class  Que36 {
 
     public class ListNode {
         int val;

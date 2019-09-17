@@ -34,6 +34,7 @@ public class Que39 {
 
     }
 
+    //求出root节点的最深深度
     private int maxDepth(TreeNode root) {
 
         if (root == null){

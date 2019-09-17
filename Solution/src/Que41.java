@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * @author: hyl
@@ -32,7 +31,7 @@ public class Que41 {
             int tSum = 0;
             for (int j = i; j <= sum  ; j++) {
 
-                //当i+j超过了sum 没必要向下求解了
+                //当i+j超过了sum 没必要向下求解了,保证解至少是两个数
                 if (i + j > sum){
                     break;
                 }
@@ -52,8 +51,6 @@ public class Que41 {
                 }
             }
         }
-
-
 
         return res;
 
