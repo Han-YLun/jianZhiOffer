@@ -12,6 +12,7 @@ public class Que46 {
             return -1;
         }
 
+        //记录第m个在数组中的位置
         int  index = 0;
 
         int[] quit = new int[n];
@@ -23,27 +24,34 @@ public class Que46 {
 
             int sum = 0;
 
+            //查数到m
             int tempM = m;
             while (tempM-- != 0){
 
+                //当当前为已退出,tempM加加
                 if (quit[index % n] != 1){
                     tempM++;
                 }
 
+
+                //下标前移
                 index++;
                 
             }
 
+            //将此位退出的标志即为0
             quit[(index - 1) % n] = 0;
             
 
 
+            //判断没有退出的有多少个
             for (int i = 0; i < quit.length; i++) {
                 if (quit[i] == 1){
                    sum++;
                 }
             }
 
+            //如果只有一个,结束循环
             if (sum == 1){
                 break;
             }

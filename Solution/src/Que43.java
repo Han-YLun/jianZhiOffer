@@ -18,8 +18,10 @@ public class Que43 {
 
         n = n % str.length();
 
+        //将第K为到str.length放在前面
         sb.append(str.substring(n,str.length()));
 
+        //将前K位放在后面
         sb.append(str.substring(0,n));
 
 
