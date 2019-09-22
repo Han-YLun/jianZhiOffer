@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15fb5681-458e-49a1-9d47-c48d06b27786" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Que45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Que45.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Que49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Que49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Que51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Que51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Que53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Que53.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Que49.java">
+        <entry file="file://$PROJECT_DIR$/src/Que53.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="35" column="34" lean-forward="true" selection-end-line="38" />
+            <state relative-caret-position="108">
+              <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -87,7 +88,6 @@
         <option value="$PROJECT_DIR$/src/Que44.java" />
         <option value="$PROJECT_DIR$/src/Que47.java" />
         <option value="$PROJECT_DIR$/src/Que50.java" />
-        <option value="$PROJECT_DIR$/src/Que53.java" />
         <option value="$PROJECT_DIR$/src/Que55.java" />
         <option value="$PROJECT_DIR$/src/Que60.java" />
         <option value="$PROJECT_DIR$/src/Que62.java" />
@@ -99,7 +99,6 @@
         <option value="$PROJECT_DIR$/src/Que34.java" />
         <option value="$PROJECT_DIR$/src/Que35.java" />
         <option value="$PROJECT_DIR$/src/Que48.java" />
-        <option value="$PROJECT_DIR$/src/Que51.java" />
         <option value="$PROJECT_DIR$/src/Que54.java" />
         <option value="$PROJECT_DIR$/src/Que56.java" />
         <option value="$PROJECT_DIR$/src/Que65.java" />
@@ -131,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/Que46.java" />
         <option value="$PROJECT_DIR$/src/Que45.java" />
         <option value="$PROJECT_DIR$/src/Que49.java" />
+        <option value="$PROJECT_DIR$/src/Que51.java" />
+        <option value="$PROJECT_DIR$/src/Que53.java" />
       </list>
     </option>
   </component>
@@ -162,7 +163,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -179,12 +179,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569138981157" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569140453803" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -282,16 +283,18 @@
       <workItem from="1568899237590" duration="1812000" />
       <workItem from="1569071355958" duration="878000" />
       <workItem from="1569120958571" duration="2559000" />
+      <workItem from="1569158191460" duration="1701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102057000" />
+    <option name="totallyTimeSpent" value="103758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.109656304" visible="true" weight="0.27609682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.109656304" visible="true" weight="0.2806354" />
       <window_info id="Structure" order="1" sideWeight="0.8903437" side_tool="true" weight="0.23146747" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -425,46 +428,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../java/eclipse/JDK/src.zip!/java/util/RandomAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="64" column="30" lean-forward="true" selection-start-line="64" selection-start-column="30" selection-end-line="64" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/eclipse/JDK/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="565" column="12" selection-start-line="565" selection-start-column="12" selection-end-line="565" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/eclipse/JDK/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="337" column="47" selection-start-line="337" selection-start-column="47" selection-end-line="337" selection-end-column="47" />
-          <folding>
-            <element signature="e#19072#19073#0" expanded="true" />
-            <element signature="e#19130#19131#0" expanded="true" />
-            <element signature="e#24298#24299#0" expanded="true" />
-            <element signature="e#24363#24364#0" expanded="true" />
-            <element signature="e#66531#66532#0" expanded="true" />
-            <element signature="e#66588#66589#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../java/eclipse/JDK/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="95" column="41" selection-start-line="95" selection-start-column="20" selection-end-line="95" selection-end-column="41" />
-          <folding>
-            <element signature="e#5748#5749#0" expanded="true" />
-            <element signature="e#5784#5785#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../java/eclipse/JDK/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-101">
@@ -808,7 +771,35 @@
     <entry file="file://$PROJECT_DIR$/src/Que49.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
-          <caret line="35" column="34" lean-forward="true" selection-end-line="38" />
+          <caret line="35" column="19" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que50.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-350">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que51.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="49" column="38" lean-forward="true" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que52.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Que53.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="32" column="51" lean-forward="true" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
         </state>
       </provider>
     </entry>

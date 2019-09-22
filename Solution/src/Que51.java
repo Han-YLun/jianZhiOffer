@@ -24,7 +24,7 @@ public class Que51 {
 
             for (int j = 0; j < A.length; j++) {
 
-                if (i == 0 || i != j ){
+                if (i != j){
                     sum *= A[j];
                 }
 
@@ -38,6 +38,12 @@ public class Que51 {
     }
 
 
+    /**
+     * 先求出下三角,再求出上三角
+     * 时间复杂度为O(N)
+     * @param A
+     * @return
+     */
     public int[] multiply1(int[] A) {
 
         int len = A.length;

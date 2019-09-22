@@ -37,7 +37,7 @@ public class Que53 {
 
 
                 // 第二次出现+-符号，则必须紧接在e之后
-                if (sign && str[i-1] != 'e' && str[i-1] != 'E' || sign ){
+                if (sign && str[i-1] != 'e' && str[i-1] != 'E' ){
                     return false;
                 }
 
