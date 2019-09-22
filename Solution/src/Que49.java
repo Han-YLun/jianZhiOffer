@@ -26,8 +26,7 @@ public class Que49 {
             }else if (chars[i] >= '0' && chars[i] <= '9'){
                 sum = sum * 10 + chars[i] - '0';
             }else{
-                sum = 0;
-                break;
+               return 0;
             }
         }
 
