@@ -31,7 +31,7 @@ public class Que59 {
         Stack<TreeNode> s1 = new Stack<>();//s1表示奇数,从左到右输出
         Stack<TreeNode> s2 = new Stack<>();//s2表示偶数,从右到左输出
 
-        s1.push(pRoot);
+
 
         int level = 1;
 

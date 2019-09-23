@@ -52,23 +52,13 @@ public class Que60 {
                 next++;
             }
 
+            //当每一层走完,就把list添加到返回的集合中
             if (now == 0){
                 res.add(tmpList);
                 now = next;
                 next = 0;
                 tmpList = new ArrayList<>();
             }
-        }
-
-
-
-
-        for (ArrayList<Integer> re : res) {
-            for (Integer integer : re) {
-                System.out.print(integer + "");
-            }
-
-            System.out.println();
         }
         return res;
     }

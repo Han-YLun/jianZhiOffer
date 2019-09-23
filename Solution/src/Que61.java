@@ -17,6 +17,7 @@ public class Que61 {
     }
 
 
+    //使用前序序列化
     String Serialize(TreeNode root) {
 
         StringBuilder sb = new StringBuilder();
@@ -35,6 +36,7 @@ public class Que61 {
     }
 
 
+    //使用前序反序列化
     private int index = -1;
     TreeNode Deserialize(String str) {
 
