@@ -43,6 +43,6 @@ public class Que64 {
     }
 
     public static void main(String[] args) {
-        new Que64().maxInWindows(new int[]{2,3,4,2,6,2,5,1} , 3);
+        new Que64().maxInWindows(new int[]{4,5,1,2,3} , 3);
     }
 }

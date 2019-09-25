@@ -10,6 +10,7 @@ public class Que65 {
 
         int[] flag = new int[matrix.length];
 
+        //从任一起点出发
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (helper(matrix , rows , cols , i , j , str , 0, flag)){
@@ -24,6 +25,7 @@ public class Que65 {
 
     private boolean helper(char[] matrix, int rows, int cols, int i, int j, char[] str, int k, int[] flag) {
 
+        //计算出在matrix中的位置
         int index = i * cols + j;
         if (i < 0 || i >= rows || j < 0 || j >= cols || matrix[index] != str[k] || flag[index] == 1){
             return false;

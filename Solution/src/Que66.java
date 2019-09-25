@@ -20,6 +20,7 @@ public class Que66 {
 
         flag[i][j] = 1;
 
+        //前后左右移动
         return helper(i - 1 , j , rows , cols , flag , threshold)
                 + helper(i + 1 , j , rows , cols , flag , threshold)
                 + helper(i , j - 1 , rows , cols , flag , threshold)
@@ -27,6 +28,11 @@ public class Que66 {
         
     }
 
+    /**
+     * 求出i的各位之和
+     * @param i
+     * @return
+     */
     private int numSum(int i) {
 
         int sum = 0;
