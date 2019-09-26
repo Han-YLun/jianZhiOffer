@@ -4,10 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15fb5681-458e-49a1-9d47-c48d06b27786" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Que67.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="15fb5681-458e-49a1-9d47-c48d06b27786" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Que67.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="35" column="45" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="-1092">
+              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -193,7 +190,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569470228260" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569470258914" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -299,12 +296,12 @@
       <workItem from="1569404863863" duration="1000" />
       <workItem from="1569404872843" duration="5524000" />
       <workItem from="1569419001975" duration="357000" />
-      <workItem from="1569461969881" duration="6037000" />
+      <workItem from="1569461969881" duration="6296000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129381000" />
+    <option name="totallyTimeSpent" value="129640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -818,8 +815,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Que67.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="35" column="45" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="-1092">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
         </state>
       </provider>
     </entry>
