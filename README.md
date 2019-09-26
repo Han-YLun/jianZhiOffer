@@ -1,4 +1,4 @@
-﻿# #剑指 Offer
+﻿# 剑指 Offer
 
 「剑指 Offer」是何海涛写的一本算法面试书，书中精选了 50 道常见的程序员面试题，这些题目偏向中低难度，是入门上手不错的选择。另外这些题目基本上在各大 OJ 上也都有，可以非常方便地提交自己的实现进行练手,我是在[牛客网](https://www.nowcoder.com/ta/coding-interviews?page=1)刷的题目，推荐大家在 OJ 系统上多刷几遍，不要只看书。
 
@@ -7,4 +7,4 @@
 
 | #   | Title                                             | Solution                                                                              | Blog |
 | --- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------- |
-| 1   | [二维数组中的查找](https://leetcode.com/problems/two-sum/) | [Java](./algorithms/cpp/twoSum/twoSum.cpp) | CSDN       |
+| 1   | [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [Java](./Solution/src/Que1.java) | CSDN       |
