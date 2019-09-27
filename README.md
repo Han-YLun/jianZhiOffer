@@ -7,8 +7,6 @@
 
 | #   | Title                                             | Solution                                                                              | Blog |
 | --- | ------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------- |
-| 1   | [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [Java](./Solution/src/Que1.java) | CSDN       |
-| 1   | [替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [Java](./Solution/src/Que2.java) | CSDN       |
-| 1   | [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [Java](./Solution/src/Que1.java) | CSDN       |
-| 1   | [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [Java](./Solution/src/Que1.java) | CSDN       |
+| 3   | [从尾到头打印链表](https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&tqId=11156&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [Java](./Solution/src/Que3.java) | CSDN       |
+| 2   | [替换空格](https://www.nowcoder.com/practice/4060ac7e3e404ad1a894ef3e17650423?tpId=13&tqId=11155&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [Java](./Solution/src/Que2.java) | CSDN       |
 | 1   | [二维数组中的查找](https://www.nowcoder.com/practice/abc3fe2ce8e146608e868a70efebf62e?tpId=13&tqId=11154&tPage=1&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking) | [Java](./Solution/src/Que1.java) | CSDN       |
