@@ -3,7 +3,7 @@
  * @date: 2019/08/15
  **/
 public class Que2 {
-
+  
 
     public String replaceSpace(StringBuffer str) {
 
