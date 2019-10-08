@@ -9,7 +9,7 @@ public class Que1 {
         if (array == null || array[0].length == 0){
             return false;
         }
-
+    
 
         for (int i = 0; i < array.length; i++) {
 
