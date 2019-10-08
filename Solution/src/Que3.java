@@ -15,7 +15,7 @@ public class Que3 {
         ListNode(int val) {
             this.val = val;
         }
-
+  
 
     }
 
