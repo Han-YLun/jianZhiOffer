@@ -92,6 +92,8 @@ public class Que59 {
         node.right.right = new TreeNode(11);
 
 
-        new Que59().Print(node);
+        //new Que59().Print(node);
+
+        assert (1 > 3);
     }
 }
