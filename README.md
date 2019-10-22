@@ -7,7 +7,9 @@
 > 另外，在我看来，有些题目的难度不大，并没有发表在博客上。
 > 
 > 由于有些题目比较简单，就没在[博客](https://blog.csdn.net/qq_37888382/article/category/9294119)写题目分析，如果大家有需要的，可以发表在Issues中或者私信我。
-> 
+>
+>[剑指Offer电子版PDF](https://github.com/Han-YLun/jianzhiOffer/blob/master/%E3%80%8A%E5%89%91%E6%8C%87Offer%E3%80%8B%E9%A2%98%E7%9B%AE%E5%8F%8A%E4%BB%A3%E7%A0%81.pdf)我也上传了，想看的可以下载查看前辈的一些Solution和思路。
+>
 > 由于本人能力有限，可能并未写出更好的题解，如果您有好的题解，愿和您交流探讨。此Repositories会一直更新。
 
 | #   | Title                                             | Solution                                                                              | Blog |
